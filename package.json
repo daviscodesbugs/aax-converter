@@ -1,0 +1,23 @@
+{
+  "name": "aax-converter",
+  "version": "1.0.0",
+  "description": "Convert audible AAX files to other formats",
+  "main": "index.js",
+  "bin": {
+    "aax-converter": "app.js"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "asdf"
+  },
+  "author": "daviscodesbugs",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^3.2.3",
+    "user-home": "^2.0.0"
+  }
+}
