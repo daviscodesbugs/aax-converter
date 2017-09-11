@@ -1,7 +1,7 @@
 {
   "name": "aax-converter",
-  "version": "1.0.0",
-  "description": "Convert audible AAX files to other formats",
+  "version": "1.0.1",
+  "description": "Convert Audible AAX files to other audio formats",
   "main": "index.js",
   "bin": {
     "aax-converter": "app.js"
@@ -12,12 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "asdf"
+    "url": "https://github.com/daviscodesbugs/aax-converter.git"
   },
   "author": "daviscodesbugs",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^3.2.3",
     "user-home": "^2.0.0"
+  },
+  "homepage": "https://github.com/daviscodesbugs/aax-converter",
+  "bugs": {
+    "url": "https://github.com/daviscodesbugs/aax-converter/issues"
   }
 }
