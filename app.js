@@ -50,16 +50,15 @@ var mp3questions = [
 	}
 ];
 
-var command = "ffmpeg -y";
-command += " -i " + input_file;
-
 inquirer.prompt(general_questions).then((answers) => {
 	fs.writeFileSync(userHome + '/.aax-converter-config', answers.activation_bytes, (err) => {
 		if (err) throw err;
 	});
+	var command = "ffmpeg -y";
 	command += " -activation_bytes " + answers.activation_bytes;
+	command += " -i " + input_file;
 
-	switch(answers.format) {
+	switch (answers.format) {
 		case "mp3":
 			inquirer.prompt(mp3questions).then((answers) => {
 				command += " -ar " + answers.sample_rate;
