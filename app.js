@@ -66,7 +66,7 @@ inquirer.prompt(general_questions).then((answers) => {
 				command += " -b:a " + answers.bitrate + "k";
 				command += " -vn";
 				command += " " + input_file.split('.')[0] + ".mp3";
-				console.log(command);
+				console.log("Converting... (this may take some time)");
 				runCommand(command, () => {
 					console.log("Done!");
 				});

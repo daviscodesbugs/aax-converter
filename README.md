@@ -6,7 +6,7 @@ Convert Audible AAX files to other audio formats
 
 This package uses `ffmpeg` for file conversion; ensure that it is installed.
 
-AAX files need to be decrypted using the activation bytes of the owner of the AAX file; you will need to know your activation bytes.
+AAX files need to be decrypted using the activation bytes of the owner of the AAX file; you will need to know your activation bytes. [This](https://github.com/inAudible-NG/audible-activator) python script is great.
 
 ## Installation
 
