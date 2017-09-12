@@ -1,6 +1,6 @@
 {
   "name": "aax-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert Audible AAX files to other audio formats",
   "main": "index.js",
   "bin": {
